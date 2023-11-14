@@ -4,7 +4,8 @@ function fibonacci(num) {
 	for (let i = 2; i < num; i++) {
 		fib[i] = fib[i - 1] + fib[i - 2];
 	}
-	console.log(fib);
+	return fib;
 }
+console.log(fibonacci(num));
 
 module.exports = fibonacci;
